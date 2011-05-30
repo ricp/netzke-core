@@ -14,7 +14,7 @@ module Netzke
       # * :cache - enable Rails caching of assets
       #
       # E.g.:
-      #     <%= netzke_init :theme => :grey %>
+      #     <%= netzke_init :theme => :gray %>
       #
       # For Sencha Touch:
       #     <%= netzke_init :platform => :touch %>
