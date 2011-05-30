@@ -20,7 +20,6 @@ module Netzke
       #     <%= netzke_init :platform => :touch %>
       def netzke_init(params = {})
         Netzke::Core.platform = params[:platform] || :ext
-        theme = params[:theme] || params[:ext_theme]
 
         # Rails' forgery protection
         content_for :netzke_js_classes, %Q(\n\nExt.Ajax.extraParams = {authenticity_token: '#{form_authenticity_token}'};)
